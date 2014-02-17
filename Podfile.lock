@@ -1,0 +1,36 @@
+PODS:
+  - AVHexColor (1.1.0)
+  - FormatterKit (1.2.1):
+    - FormatterKit/AddressFormatter
+    - FormatterKit/ArrayFormatter
+    - FormatterKit/LocationFormatter
+    - FormatterKit/OrdinalNumberFormatter
+    - FormatterKit/TimeIntervalFormatter
+    - FormatterKit/UnitOfInformationFormatter
+    - FormatterKit/URLRequestFormatter
+  - FormatterKit/AddressFormatter (1.2.1)
+  - FormatterKit/ArrayFormatter (1.2.1)
+  - FormatterKit/LocationFormatter (1.2.1)
+  - FormatterKit/OrdinalNumberFormatter (1.2.1)
+  - FormatterKit/TimeIntervalFormatter (1.2.1)
+  - FormatterKit/UnitOfInformationFormatter (1.2.1)
+  - FormatterKit/URLRequestFormatter (1.2.1)
+  - MTGeometry (0.0.3)
+  - StackBluriOS (0.0.1)
+  - UISS (1.1.1)
+
+DEPENDENCIES:
+  - AVHexColor (~> 1.1.0)
+  - FormatterKit (= 1.2.1)
+  - MTGeometry (= 0.0.3)
+  - StackBluriOS (= 0.0.1)
+  - UISS (= 1.1.1)
+
+SPEC CHECKSUMS:
+  AVHexColor: 544ee59a39c26d2d835e1163db48fc6c82860583
+  FormatterKit: 43c6567e367a872196747fda0c26395c37bd7dd6
+  MTGeometry: 2566680a36d3d8a50e7532194ae10e1d8f0fa316
+  StackBluriOS: dd039bb5ff23a3dd370853202d38dec815970e5b
+  UISS: 5d91ad00954c770b7b6ccceccf028d82d0fe395d
+
+COCOAPODS: 0.24.0

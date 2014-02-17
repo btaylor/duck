@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A23E766718B14E2C008C4243 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A23E766618B14E2C008C4243 /* Foundation.framework */; };
+		A23E766918B14E2C008C4243 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A23E766818B14E2C008C4243 /* CoreGraphics.framework */; };
+		A23E766B18B14E2C008C4243 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A23E766A18B14E2C008C4243 /* UIKit.framework */; };
+		A23E767118B14E2C008C4243 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A23E766F18B14E2C008C4243 /* InfoPlist.strings */; };
+		A23E767318B14E2C008C4243 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A23E767218B14E2C008C4243 /* main.m */; };
+		A23E767718B14E2C008C4243 /* DUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A23E767618B14E2C008C4243 /* DUAppDelegate.m */; };
+		A23E768018B14E2C008C4243 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A23E767F18B14E2C008C4243 /* XCTest.framework */; };
+		A23E768118B14E2C008C4243 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A23E766618B14E2C008C4243 /* Foundation.framework */; };
+		A23E768218B14E2C008C4243 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A23E766A18B14E2C008C4243 /* UIKit.framework */; };
+		A23E768A18B14E2C008C4243 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A23E768818B14E2C008C4243 /* InfoPlist.strings */; };
+		A23E768C18B14E2C008C4243 /* DuckTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A23E768B18B14E2C008C4243 /* DuckTests.m */; };
+		A23E769718B14E48008C4243 /* DUMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A23E769618B14E48008C4243 /* DUMainViewController.m */; };
+		A23E769B18B15136008C4243 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A23E769A18B15136008C4243 /* CoreAudio.framework */; };
+		A23E769D18B15668008C4243 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A23E769C18B15668008C4243 /* CoreLocation.framework */; };
+		A23E76A018B15900008C4243 /* DUMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = A23E769F18B15900008C4243 /* DUMainView.m */; };
+		A23E76A618B294AA008C4243 /* DUDuckingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A23E76A518B294AA008C4243 /* DUDuckingManager.m */; };
+		A23E76A818B2A7DE008C4243 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A23E76A718B2A7DE008C4243 /* Images.xcassets */; };
+		A30542EA11404DBBA019F652 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BECC22EE1A7C416D87B8E67D /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A23E768318B14E2C008C4243 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A23E765B18B14E2C008C4243 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A23E766218B14E2C008C4243;
+			remoteInfo = Duck;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7D0EFFC266A44584B15C573A /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		A23E766318B14E2C008C4243 /* Duck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Duck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A23E766618B14E2C008C4243 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A23E766818B14E2C008C4243 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A23E766A18B14E2C008C4243 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A23E766E18B14E2C008C4243 /* Duck-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Duck-Info.plist"; sourceTree = "<group>"; };
+		A23E767018B14E2C008C4243 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A23E767218B14E2C008C4243 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A23E767418B14E2C008C4243 /* Duck-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Duck-Prefix.pch"; sourceTree = "<group>"; };
+		A23E767518B14E2C008C4243 /* DUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DUAppDelegate.h; sourceTree = "<group>"; };
+		A23E767618B14E2C008C4243 /* DUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DUAppDelegate.m; sourceTree = "<group>"; };
+		A23E767E18B14E2C008C4243 /* DuckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DuckTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A23E767F18B14E2C008C4243 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A23E768718B14E2C008C4243 /* DuckTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DuckTests-Info.plist"; sourceTree = "<group>"; };
+		A23E768918B14E2C008C4243 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A23E768B18B14E2C008C4243 /* DuckTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DuckTests.m; sourceTree = "<group>"; };
+		A23E769518B14E48008C4243 /* DUMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUMainViewController.h; sourceTree = "<group>"; };
+		A23E769618B14E48008C4243 /* DUMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DUMainViewController.m; sourceTree = "<group>"; };
+		A23E769818B15082008C4243 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A23E769A18B15136008C4243 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		A23E769C18B15668008C4243 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A23E769E18B15900008C4243 /* DUMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUMainView.h; sourceTree = "<group>"; };
+		A23E769F18B15900008C4243 /* DUMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DUMainView.m; sourceTree = "<group>"; };
+		A23E76A418B294AA008C4243 /* DUDuckingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUDuckingManager.h; sourceTree = "<group>"; };
+		A23E76A518B294AA008C4243 /* DUDuckingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DUDuckingManager.m; sourceTree = "<group>"; };
+		A23E76A718B2A7DE008C4243 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BECC22EE1A7C416D87B8E67D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A23E766018B14E2C008C4243 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A23E769D18B15668008C4243 /* CoreLocation.framework in Frameworks */,
+				A23E769B18B15136008C4243 /* CoreAudio.framework in Frameworks */,
+				A23E766918B14E2C008C4243 /* CoreGraphics.framework in Frameworks */,
+				A23E766B18B14E2C008C4243 /* UIKit.framework in Frameworks */,
+				A23E766718B14E2C008C4243 /* Foundation.framework in Frameworks */,
+				A30542EA11404DBBA019F652 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A23E767B18B14E2C008C4243 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A23E768018B14E2C008C4243 /* XCTest.framework in Frameworks */,
+				A23E768218B14E2C008C4243 /* UIKit.framework in Frameworks */,
+				A23E768118B14E2C008C4243 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A23E765A18B14E2C008C4243 = {
+			isa = PBXGroup;
+			children = (
+				A23E766C18B14E2C008C4243 /* Duck */,
+				A23E768518B14E2C008C4243 /* DuckTests */,
+				A23E766518B14E2C008C4243 /* Frameworks */,
+				A23E766418B14E2C008C4243 /* Products */,
+				7D0EFFC266A44584B15C573A /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		A23E766418B14E2C008C4243 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A23E766318B14E2C008C4243 /* Duck.app */,
+				A23E767E18B14E2C008C4243 /* DuckTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A23E766518B14E2C008C4243 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A23E769C18B15668008C4243 /* CoreLocation.framework */,
+				A23E769A18B15136008C4243 /* CoreAudio.framework */,
+				A23E769818B15082008C4243 /* AudioToolbox.framework */,
+				A23E766618B14E2C008C4243 /* Foundation.framework */,
+				A23E766818B14E2C008C4243 /* CoreGraphics.framework */,
+				A23E766A18B14E2C008C4243 /* UIKit.framework */,
+				A23E767F18B14E2C008C4243 /* XCTest.framework */,
+				BECC22EE1A7C416D87B8E67D /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A23E766C18B14E2C008C4243 /* Duck */ = {
+			isa = PBXGroup;
+			children = (
+				A23E76A718B2A7DE008C4243 /* Images.xcassets */,
+				A23E767518B14E2C008C4243 /* DUAppDelegate.h */,
+				A23E767618B14E2C008C4243 /* DUAppDelegate.m */,
+				A23E76A418B294AA008C4243 /* DUDuckingManager.h */,
+				A23E76A518B294AA008C4243 /* DUDuckingManager.m */,
+				A23E769E18B15900008C4243 /* DUMainView.h */,
+				A23E769F18B15900008C4243 /* DUMainView.m */,
+				A23E769518B14E48008C4243 /* DUMainViewController.h */,
+				A23E769618B14E48008C4243 /* DUMainViewController.m */,
+				A23E766D18B14E2C008C4243 /* Supporting Files */,
+			);
+			path = Duck;
+			sourceTree = "<group>";
+		};
+		A23E766D18B14E2C008C4243 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A23E766E18B14E2C008C4243 /* Duck-Info.plist */,
+				A23E766F18B14E2C008C4243 /* InfoPlist.strings */,
+				A23E767218B14E2C008C4243 /* main.m */,
+				A23E767418B14E2C008C4243 /* Duck-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A23E768518B14E2C008C4243 /* DuckTests */ = {
+			isa = PBXGroup;
+			children = (
+				A23E768B18B14E2C008C4243 /* DuckTests.m */,
+				A23E768618B14E2C008C4243 /* Supporting Files */,
+			);
+			path = DuckTests;
+			sourceTree = "<group>";
+		};
+		A23E768618B14E2C008C4243 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A23E768718B14E2C008C4243 /* DuckTests-Info.plist */,
+				A23E768818B14E2C008C4243 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A23E766218B14E2C008C4243 /* Duck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A23E768F18B14E2C008C4243 /* Build configuration list for PBXNativeTarget "Duck" */;
+			buildPhases = (
+				D20AB9916B6E4119BFEA6459 /* Check Pods Manifest.lock */,
+				A23E765F18B14E2C008C4243 /* Sources */,
+				A23E766018B14E2C008C4243 /* Frameworks */,
+				A23E766118B14E2C008C4243 /* Resources */,
+				97B195C5C16C47928E23DE56 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Duck;
+			productName = Duck;
+			productReference = A23E766318B14E2C008C4243 /* Duck.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A23E767D18B14E2C008C4243 /* DuckTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A23E769218B14E2C008C4243 /* Build configuration list for PBXNativeTarget "DuckTests" */;
+			buildPhases = (
+				A23E767A18B14E2C008C4243 /* Sources */,
+				A23E767B18B14E2C008C4243 /* Frameworks */,
+				A23E767C18B14E2C008C4243 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A23E768418B14E2C008C4243 /* PBXTargetDependency */,
+			);
+			name = DuckTests;
+			productName = DuckTests;
+			productReference = A23E767E18B14E2C008C4243 /* DuckTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A23E765B18B14E2C008C4243 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DU;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Brad Taylor";
+				TargetAttributes = {
+					A23E766218B14E2C008C4243 = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					A23E767D18B14E2C008C4243 = {
+						TestTargetID = A23E766218B14E2C008C4243;
+					};
+				};
+			};
+			buildConfigurationList = A23E765E18B14E2C008C4243 /* Build configuration list for PBXProject "Duck" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A23E765A18B14E2C008C4243;
+			productRefGroup = A23E766418B14E2C008C4243 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A23E766218B14E2C008C4243 /* Duck */,
+				A23E767D18B14E2C008C4243 /* DuckTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A23E766118B14E2C008C4243 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A23E767118B14E2C008C4243 /* InfoPlist.strings in Resources */,
+				A23E76A818B2A7DE008C4243 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A23E767C18B14E2C008C4243 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A23E768A18B14E2C008C4243 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		97B195C5C16C47928E23DE56 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D20AB9916B6E4119BFEA6459 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A23E765F18B14E2C008C4243 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A23E76A018B15900008C4243 /* DUMainView.m in Sources */,
+				A23E76A618B294AA008C4243 /* DUDuckingManager.m in Sources */,
+				A23E769718B14E48008C4243 /* DUMainViewController.m in Sources */,
+				A23E767318B14E2C008C4243 /* main.m in Sources */,
+				A23E767718B14E2C008C4243 /* DUAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A23E767A18B14E2C008C4243 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A23E768C18B14E2C008C4243 /* DuckTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A23E768418B14E2C008C4243 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A23E766218B14E2C008C4243 /* Duck */;
+			targetProxy = A23E768318B14E2C008C4243 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A23E766F18B14E2C008C4243 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A23E767018B14E2C008C4243 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A23E768818B14E2C008C4243 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A23E768918B14E2C008C4243 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A23E768D18B14E2C008C4243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A23E768E18B14E2C008C4243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A23E769018B14E2C008C4243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D0EFFC266A44584B15C573A /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Duck/Duck-Prefix.pch";
+				INFOPLIST_FILE = "Duck/Duck-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A23E769118B14E2C008C4243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D0EFFC266A44584B15C573A /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Duck/Duck-Prefix.pch";
+				INFOPLIST_FILE = "Duck/Duck-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A23E769318B14E2C008C4243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Duck.app/Duck";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Duck/Duck-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DuckTests/DuckTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A23E769418B14E2C008C4243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Duck.app/Duck";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Duck/Duck-Prefix.pch";
+				INFOPLIST_FILE = "DuckTests/DuckTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A23E765E18B14E2C008C4243 /* Build configuration list for PBXProject "Duck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A23E768D18B14E2C008C4243 /* Debug */,
+				A23E768E18B14E2C008C4243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A23E768F18B14E2C008C4243 /* Build configuration list for PBXNativeTarget "Duck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A23E769018B14E2C008C4243 /* Debug */,
+				A23E769118B14E2C008C4243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A23E769218B14E2C008C4243 /* Build configuration list for PBXNativeTarget "DuckTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A23E769318B14E2C008C4243 /* Debug */,
+				A23E769418B14E2C008C4243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A23E765B18B14E2C008C4243 /* Project object */;
+}
